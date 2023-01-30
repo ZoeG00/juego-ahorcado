@@ -1,16 +1,16 @@
-## Juego del Ahorcado : colores
+# Juego del Ahorcado : colores
 - Juego simple del ahorcado, salva al sr Arcoiris
 
-# Características:
+## Características:
 - Diseño completamente responsive
 - Posibilidad de agregar palabras nuevas al juego
 - Temática: colores, proximamente más temas
 
-# Requisitos:
+## Requisitos:
 - Para agregar una nueva palabra solo con letras mayúsculas y máximo 10 caracteres
 - No deben ser utilizados letras con acentos ni caracteres especiales
 
-# Realizado con:
+## Realizado con:
 -HTML
 -CSS
 -JavaScript
