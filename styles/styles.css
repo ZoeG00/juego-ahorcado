@@ -1,0 +1,72 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Pangolin&family=Press+Start+2P&family=Reenie+Beanie&display=swap'); */
+
+html {
+    overflow: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
+}
+
+/*Diseño Responsive*/
+
+#inicio {
+    background-color: blueviolet;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#dibujo-ahorcado {
+    background-color: darkorange;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#agregar-palabra {
+    color: white;
+    background-color: deeppink;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.boton {
+    background: space;
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: x-large;
+    border-color: transparent;
+    border: outset;
+    line-height: 5vh;
+    margin: 1vh;
+    text-transform: uppercase;
+}
+
+.boton:hover {
+    opacity: 80%;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+#palabra-nueva {
+    border: outset;
+    border-radius: 15px;
+    text-align: -webkit-center;
+    line-height: 5vh;
+    width: 40vw;
+
+}
+
+.horca {
+    width: 70vw;
+    height: 50vh;
+    background-image: url(/hoja.webp);
+    background-size: cover;
+}

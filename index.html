@@ -1,13 +1,33 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name ="viewport" content="width=device-width, initial">
-        <meta http-equiv="X-UA-Compatible"  content="ie=edge">
-        <title>Ahorcado</title>
-        <link
-    </head>
-    <body>
+<html lang="es">
 
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Juego del ahorcado">
+    <link href="horca.png" rel="icon" />
+    <title>Ahorcado | Juego del Ahorcado</title>
+    <link href="styles/reset.css" rel="stylesheet" type="text/css" />
+    <link href="styles/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="inicio">
+        <a href="#dibujo-ahorcado"><button class="boton">iniciar juego</button></a>
+        <a href="#agregar-palabra"><button class="boton">agregar palabra</button></a>
+    </div>
+    <div id="dibujo-ahorcado">
+        <canvas class="horca" width="1200px" height="1000px"></canvas>
+        <a href="#inicio"><button class="boton">desistir</button></a>
+    </div>
+    <div id="agregar-palabra">
+        <input id="palabra-nueva" name="palabra-nueva" rows="10" cols="50" placeholder="Escribe la palabra aquí"
+            type="text" required>*solo letras mayúsculas, máx. 10 carácteres</input>
+        <input type="button" class="boton" id="boton-agregar" name="boton-agregar" value="agregar palabra"></input>
+        <a href="#inicio"><button class="boton">inicio</button></a>
+    </div>
+</body>
+<script type="text/javascript" src="/horca.js"></script>
+
 </html>
