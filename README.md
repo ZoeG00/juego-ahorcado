@@ -1,5 +1,5 @@
 # Juego del Ahorcado : colores
-- Juego simple del ahorcado, salva al sr Arcoiris
+- Juego simple del ahorcado
 
 ## Características:
 - Diseño completamente responsive
@@ -11,9 +11,9 @@
 - No deben ser utilizados letras con acentos ni caracteres especiales
 
 ## Realizado con:
--HTML
--CSS
--JavaScript
+- HTML
+- CSS
+- JavaScript
 
 version 0.1.0
 ©2022
