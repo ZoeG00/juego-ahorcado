@@ -15,6 +15,5 @@
 - CSS
 - JavaScript
 
-version 0.1.0
-
-©2022
+- version 0.1.0
+- ©2022
